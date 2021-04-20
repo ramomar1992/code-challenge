@@ -33,7 +33,7 @@ isSimilar("cat","act")
 const isSimilar = (arr) => {
     // Solution code here...
     if (arr.length < 1) {
-        return false
+        return false;
     }
     let str1 = arr[0].split('').sort().join('');
     let str2 = arr[1].split('').sort().join('');
